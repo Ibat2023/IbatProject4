@@ -18,3 +18,4 @@ public class MyMath {
 		return a/b;
 	}
 }
+
