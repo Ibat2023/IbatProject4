@@ -19,7 +19,7 @@ public class Geometry {
 		float volume = (4.0f / 3.0f) * (float) Math.PI * radius * radius * radius;
 		return volume;
 	}
-
+	//Calculating the surface area of sphere
 	public float surfaceAreaSphere(float radius) {
 		float surface = 4.0f * (float) Math.PI * radius * radius;
 		return surface;
