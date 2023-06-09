@@ -126,8 +126,8 @@ public class GeometryTest {
   		//Test cases for calculating Surface Area of Sphere
   
   	//Test 1
-  
-  	public void testSurfaceAreaSphere1() {
+  @Test 
+  public void testSurfaceAreaSphere1() {
   		float radius = 2.0f;
   		float expected = 50.27f;
   		float actual = geometry.surfaceAreaSphere(radius);
@@ -135,8 +135,8 @@ public class GeometryTest {
   	}
   	
   //Test2
-    
-  	public void testSurfaceAreaSphere2() {
+  @Test  
+  public void testSurfaceAreaSphere2() {
   		float radius = 4.0f;
   		float expected = 201.06f;
   		float actual = geometry.surfaceAreaSphere(radius);
@@ -144,8 +144,8 @@ public class GeometryTest {
   	}
   	
   //Test 3
-    
-  	public void testSurfaceAreaSphere3() {
+  @Test  
+  public void testSurfaceAreaSphere3() {
   		float radius = 10.0f;
   		float expected = 1256.64f;
   		float actual = geometry.surfaceAreaSphere(radius);
@@ -153,8 +153,8 @@ public class GeometryTest {
   	}
   	
   //Test 4
-    
-  	public void testSurfaceAreaSphere4() {
+  @Test 
+  public void testSurfaceAreaSphere4() {
   		float radius = 8.0f;
   		float expected = 804.25f;
   		float actual = geometry.surfaceAreaSphere(radius);
